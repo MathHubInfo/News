@@ -1,0 +1,1 @@
+{"title": {{include.page.title | jsonify}}, "id": {{include.page.url | replace: "/", "" | jsonify }}, "date": {{include.page.date | date: "%s"}}, "content": {{include.page.content | jsonify}} }{%if include.withcomma %},{% endif %}

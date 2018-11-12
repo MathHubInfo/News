@@ -1,3 +1,4 @@
+---
 date: 2018-04-12
 title: Reimplementing MathHub.info without Drupal
 ---

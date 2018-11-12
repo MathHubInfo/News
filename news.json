@@ -1,0 +1,3 @@
+---
+---
+[{% for post in site.posts %}{% if forloop.last == false %}{% include postasjson.html page=post withcomma="true" %}{% else %}{% include postasjson.html page=post %}{% endif%}{% endfor %}]
