@@ -1,6 +1,7 @@
 ---
 date: 2018-04-12
 title: Reimplementing MathHub.info without Drupal
+tags: Sys
 ---
 We have decided that we will not invest into re-building the compromised Drupal installation of the MathHub.info front-end, but instead re-implement MathHub.info using docker, webpack, and React.JS.
 
